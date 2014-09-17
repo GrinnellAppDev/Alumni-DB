@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+// OUTLETS
+@property (weak, nonatomic) IBOutlet UIButton *beginBtn;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIButton *searchBtn;
+
+// ACTIONS
+- (IBAction)begin:(id)sender;
+- (IBAction)search:(id)sender;
+
+
 @end

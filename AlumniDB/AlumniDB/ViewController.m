@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)begin:(id)sender {
+}
+
+- (IBAction)searcg:(id)sender {
+}
 @end
